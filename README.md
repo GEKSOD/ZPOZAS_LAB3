@@ -183,7 +183,7 @@ _CRT_SECURE_NO_WARNINGS
 OBFUSCATED, предоставляемого ADVobfuscator-legacy.
 
 Финальный вариант файла LR3_Obfuscation.cpp:
-```
+```cpp
 #include <iostream>
 #include <filesystem>
 #include <string>
