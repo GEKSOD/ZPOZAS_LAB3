@@ -292,6 +292,10 @@ IDA корректно определила функцию main.
 
 <img width="1070" height="892" alt="image" src="https://github.com/user-attachments/assets/b827e6c0-d304-4751-8dcf-445cc3caba6d" />
 
+ДО ОБФУСКАЦИИ было:
+<img width="1067" height="884" alt="image" src="https://github.com/user-attachments/assets/b3242c93-f02d-40cb-8564-1949d50d5d16" />
+
+
 
 Граф функции стал более громоздким по сравнению с простой версией без обфускации:
 появляются дополнительные вспомогательные конструкции, связанные с работой std::filesystem и макросом OBFUSCATED.
@@ -301,7 +305,11 @@ std::filesystem::directory_iterator, обращения к std::cout, system и 
 
 #### 5.2. Анализ строк (Strings)
 
+ДО ОБФУСКАЦИИ было:
+<img width="1069" height="885" alt="image" src="https://github.com/user-attachments/assets/bfd3a646-df34-441e-b433-0c0e1481573e" />
 
+
+ПОСЛЕ:
 <img width="1072" height="890" alt="image" src="https://github.com/user-attachments/assets/3a5775fd-a44a-49a5-9b5a-9c0c4be4b2a4" />
 
 В окне Strings отсутствуют строки:
@@ -326,7 +334,10 @@ Done.
 
 #### 5.3. Hex-анализ
 
+ДО ОБФУСКАЦИИ было:
+<img width="1071" height="890" alt="image" src="https://github.com/user-attachments/assets/f172c871-7908-4c5a-9078-9ee5c23252ff" />
 
+ПОСЛЕ:
 <img width="1073" height="885" alt="image" src="https://github.com/user-attachments/assets/4daa4beb-ee00-4934-8a0d-ddcb3ed9e48f" />
 
 
